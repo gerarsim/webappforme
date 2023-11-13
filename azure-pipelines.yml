@@ -10,10 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '8c2c9cfc-1608-400f-ab47-81c2bdc943ea'
-  imageRepository: 'webapp'
-  containerRegistry: 'myregistercontaineramoi.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
+
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
