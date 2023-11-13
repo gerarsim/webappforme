@@ -28,6 +28,6 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'myregistercontaineramoi'
-        repository: 'myregistercontaineramoi.azurecr.io/myregistercontaineramoi'
+        repository: 'myregistercontaineramoi.azurecr.io'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
